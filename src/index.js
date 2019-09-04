@@ -7,7 +7,6 @@ import { logger } from 'redux-logger';
 
 import allReducers from './reducers';
 import UserContainer from './containers/UserContainer';
-import Header from '../src/components/Header'
 //Redux saga
 import createSagaMiddleware from 'redux-saga';
 import RootSaga from './sagas/RootSaga'; 
