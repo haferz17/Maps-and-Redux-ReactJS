@@ -1,0 +1,140 @@
+/* Header */
+.Header {
+
+}
+.Top {
+    height: 5px;
+    background-color: #932A8A;
+    border: 1px solid #707070;
+}
+.Nav {
+    height: 100px;
+    border: 1px solid #707070;
+}
+.Navbar {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.Menu {
+    width: 50%;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 50px;
+    align-items: center;
+    height: 75%;
+}
+li {
+    font-size: 20px;
+    color:#707070;
+    font-family: sans-serif;
+}
+li:hover {
+    color: #AFB4D1;
+}
+li:visited {
+    color: #AFB4D1;
+}
+
+/* Content */
+.Content {
+    height: 492px;
+    border: 1px solid #707070;
+    background-image: url('../assets/image_preview.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contain {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.Load {
+    width: 270px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; 
+}
+.Msg {
+    font-size: 30px;
+    color:#707070;
+}
+.Image {
+    width: 350px;
+    height: 350px;
+    background-color: aliceblue;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Data {
+    width: 360px;
+    height: 410px;
+    background-color: #fff;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.Username {
+    color:#707070;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.Job {
+    font-size: 19px;
+    margin-top: -22px;
+}
+.Info {
+    /* display: flex; */
+    margin-top: 10px;
+}
+p {
+    color:#707070;
+}
+.Name {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.User-name {
+    color:#707070;
+    font-size: 28px;
+    padding-left: 50px;
+    font-family: sans-serif;
+}
+.Maps {
+    height: 110px;
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.Key {
+    display: flex;
+    margin-top: -20px;
+}
+.Key2 {
+    width: 100px;
+}
+/* Footer */
+.Footer {
+    height: 57px;
+    background-color: #192250;
+    border: 1px solid #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 15px 0 15px;
+}
